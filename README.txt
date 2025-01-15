@@ -52,3 +52,8 @@ Scramble.cpp: scramble.cpp is a demonstration of the program and the astar searc
 4. scrambles each pyraminx by k moves
 5. calls the Astar search algorithm on each pyraminx to solve it
 6. prints the path from scrambled to solved for each pyraminx
+
+to run the scramble program, download every file and input the following lines in your terminal while in the directory with all of the files:
+g++ -o Scramble pyraminx.cpp NodeandAstar.cpp scramble.cpp
+./Scramble 
+
